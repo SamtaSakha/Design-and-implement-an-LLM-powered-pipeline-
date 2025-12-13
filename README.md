@@ -157,6 +157,5 @@ The architecture closely mirrors **production-grade LLM systems** used in modern
 
 ---
 
-## 📬 Contact
 
-For questions or improvements, feel free to reach out.
+
