@@ -4,7 +4,7 @@
 ## 👩‍💻 Author
 
 **Samta**
-BSc Data Science & Artificial Intelligence
+
 
 ---
 
