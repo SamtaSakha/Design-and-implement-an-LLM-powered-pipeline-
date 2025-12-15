@@ -1,0 +1,126 @@
+# 🚀 Task 2 – User Feedback Analysis & Admin Dashboard
+## 📌 Objective
+
+Build a simple feedback analysis system where:
+
+Users can submit textual feedback
+
+The system analyzes the feedback using an LLM (Gemini)
+
+Admins can view feedback insights via a dashboard
+
+This task demonstrates LLM integration, basic data handling, and UI development.
+
+## 🧩 Solution Overview
+### 1️⃣ User Feedback App
+
+Users enter free-text feedback
+
+Feedback is analyzed using Gemini API
+
+Output includes:
+
+Sentiment (Positive / Neutral / Negative)
+
+Short reasoning (textual explanation)
+
+Feedback is stored in a CSV file for later analysis
+
+### 2️⃣ Admin Dashboard
+
+Reads stored feedback data from CSV
+
+Displays:
+
+Total number of feedback entries
+
+Sentiment distribution
+
+Tabular view of user feedback
+
+Built using Streamlit
+
+### 🛠 Tech Stack
+
+Python 3.11+
+
+Google Gemini API
+
+Pandas
+
+Streamlit
+
+CSV-based persistence
+
+## 📂 Folder Structure
+task2FYND/
+│
+├── user_app.py        # User feedback submission app
+├── admin_app.py       # Admin dashboard (Streamlit)
+├── gemini_utils.py    # Gemini API helper functions
+├── feedback.csv       # Stores user feedback
+├── requirements.txt   # Dependencies
+└── README.md
+
+## ⚙️ Setup Instructions
+1️⃣ Create Virtual Environment (optional)
+python -m venv fynd_env
+fynd_env\Scripts\activate
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Set Gemini API Key
+
+Inside gemini_utils.py:
+
+genai.configure(api_key="YOUR_GEMINI_API_KEY")
+
+▶️ How to Run
+🔹 Run User App
+python user_app.py
+
+
+Enter feedback text
+
+Sentiment is generated using Gemini
+
+Feedback is saved to feedback.csv
+
+## 🔹 Run Admin Dashboard
+streamlit run admin_app.py
+
+
+Opens browser dashboard
+
+View feedback insights and sentiment summary
+
+🧠 Example Gemini Prompt (Task 2)
+Analyze the sentiment of the following feedback and classify it as
+Positive, Neutral, or Negative. Provide a short explanation.
+
+Feedback: "Delivery was fast but packaging could be better."
+
+## ✅ Key Learnings
+
+Integrated LLM APIs into a real application
+
+Built a lightweight feedback pipeline
+
+Designed a basic admin dashboard
+
+Handled real-world issues like empty CSVs and missing data
+
+🔮 Future Improvements
+
+Store feedback in a database instead of CSV
+
+Add charts for sentiment trends
+
+Authentication for admin dashboard
+
+Batch processing of feedback
+
+🏁 Conclusion
+
+This task showcases end-to-end AI application development, from prompt engineering to UI and data storage, aligning well with real-world AI engineering workflows.
