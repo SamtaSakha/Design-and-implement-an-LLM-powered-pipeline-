@@ -118,5 +118,3 @@ This dashboard is **read-only** and focuses on **data inspection and insights**,
 
 ---
 
-## 🔁 System Architecture Overview
-
