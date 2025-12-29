@@ -8,6 +8,12 @@ The system is designed with **clear role separation**, **data persistence**, and
 ---
 
 ## 🧑‍💻 User Dashboard – Feedback Submission Interface
+## 📸 Dashboard Screenshot
+
+<p align="center">
+  <img src="Screenshot 2025-12-29 172342.png" alt="Dashboard Screenshot" width="850"/>
+</p>
+
 
 ### 🎯 Purpose
 The User Dashboard provides an intuitive interface for end users to submit textual feedback.  
@@ -60,6 +66,9 @@ The feedback data is stored in **`feedback.csv`** with the following structure:
 ---
 
 ## 🔐 Admin Dashboard – Feedback Analytics & Monitoring
+<p align="center">
+  <img src="Screenshot 2025-12-29 172607.png" alt="Admin Dashboard Screenshot" width="850"/>
+</p>
 
 ### 🎯 Purpose
 The Admin Dashboard enables administrators to monitor all submitted feedback and analyze overall sentiment trends.
