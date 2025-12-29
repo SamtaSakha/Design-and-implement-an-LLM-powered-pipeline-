@@ -19,6 +19,19 @@ The implementation focuses on **real-world production concepts** such as prompt 
 
 ---
 
+
+
+
+## 📸 Dashboard Screenshots
+
+| 🧑‍💻 User Dashboard | 🔐 Admin Dashboard |
+|---------------------|-------------------|
+| <img src="Screenshot 2025-12-29 172342.png" width="450"/> | <img src="Screenshot 2025-12-29 172607.png" width="450"/> |
+
+
+
+
+
 ## 🗂️ Project Structure
 
 ```
